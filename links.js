@@ -1,5 +1,5 @@
 const links = [
-  { title: "GitHub", url: "https://github.com" },
-  { title: "YouTube", url: "https://youtube.com" },
-  { title: "Notion", url: "https://www.notion.so" },
+  { title: 'Life Weeks Visualizer', url: 'https://natthaphakhan.github.io/life_weeks_visualizer/' },
+  { title: 'Virtual Pet Game', url: 'https://natthaphakhan.github.io/virtual-pet-game/' },
+  { title: 'Breath Box', url: 'https://natthaphakhan.github.io/breath-box/' }
 ];
