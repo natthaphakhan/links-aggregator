@@ -36,8 +36,9 @@
     .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border:1px solid rgba(255,255,255,0.03);padding:14px;border-radius:12px;display:flex;flex-direction:column;gap:10px;min-height:96px}
     .card .top{display:flex;align-items:center;gap:12px}
     .fav{width:44px;height:44px;border-radius:10px;display:grid;place-items:center}
-    .info .name{font-weight:600}
-    .info .url{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .info{min-width:0}
+    .info .name{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+    .info .url{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
   </style>
 </head>
 <body>
